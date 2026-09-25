@@ -25,3 +25,10 @@ The SVG files reconstruct the daemon symbol from the final PNG specimen sheet. T
 - [Favicon](favicons/favicon.svg), simplified for 16 × 16 pixels
 
 The transparent marks use light tiles and are intended for dark backgrounds. Run `python3 source/generate-svgs.py` to regenerate the SVG files.
+
+## PNG app avatars
+
+These 1254 × 1254 PNGs include the textured black button and raised edge shown in the visual reference. Use them when an app needs a raster upload.
+
+- [Default relief icon](icons/daemon-default-relief.png)
+- [Fragment relief icon](icons/daemon-fragment-relief.png)
