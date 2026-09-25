@@ -116,6 +116,7 @@ if __name__ == '__main__':
         'logos/daemon/daemon-crt.svg': svg('devlzlab daemon CRT', 'crt'),
         'logos/daemon/daemon-outline.svg': svg('devlzlab daemon outline', 'outline'),
         'icons/daemon.svg': svg('devlzlab daemon app icon', background=True),
+        'icons/daemon-fragment.svg': svg('devlzlab daemon fragment app icon', 'fragment', background=True),
         'favicons/favicon.svg': favicon_svg(),
     }
     for relative, content in files.items():

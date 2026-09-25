@@ -10,7 +10,7 @@ These PNG files preserve the original logo concept sheets.
 | [daemon-platform-shadow-triptych.png](concepts/daemon-platform-shadow-triptych.png) | Daemon, platform, and shadow variations |
 | [daemon-pixel-icon-specimen-sheet.png](concepts/daemon-pixel-icon-specimen-sheet.png) | Daemon pixel icon specimen sheet |
 
-These are raster concept sheets. Individual SVG logos, favicon sizes, and transparent icon exports have not been produced yet.
+These are raster concept sheets, separate from the SVG assets below.
 
 ## SVG assets
 
@@ -20,7 +20,8 @@ The SVG files reconstruct the daemon symbol from the final PNG specimen sheet. T
 - [Fragment mark](logos/daemon/daemon-fragment.svg)
 - [CRT mark](logos/daemon/daemon-crt.svg)
 - [Outline mark](logos/daemon/daemon-outline.svg)
-- [App icon](icons/daemon.svg), with a dark rounded background
+- [Default app icon](icons/daemon.svg), with a dark rounded background
+- [Fragment app icon](icons/daemon-fragment.svg), with the same dark rounded background
 - [Favicon](favicons/favicon.svg), simplified for 16 × 16 pixels
 
 The transparent marks use light tiles and are intended for dark backgrounds. Run `python3 source/generate-svgs.py` to regenerate the SVG files.
